@@ -57,21 +57,8 @@ body {
     background-color: #0056b3;
   }
   
-  .panel {
-    padding: 0 16px;
-    background-color: #fff;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
-  
-  .accordion.active {
-    background-color: #0056b3;
-  }
-  
-  .accordion.active + .panel {
-    max-height: 500px; /* Adjust the max-height as needed */
-    transition: max-height 0.3s ease;
+   .panel {
+    font-size: 13px;
   }
   
   .review-section {
